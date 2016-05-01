@@ -184,7 +184,7 @@
                     <artifactId>maven-sling-plugin</artifactId>
                     <version>2.1.0</version>
                     <configuration>
-                        <username>${crx.username}</username>
+                        <user>${crx.username}</user>
                         <password>${crx.password}</password>
                     </configuration>
                 </plugin>
@@ -195,7 +195,7 @@
                     <extensions>true</extensions>
                     <configuration>
                         <failOnError>true</failOnError>
-                        <username>${crx.username}</username>
+                        <userId>${crx.username}</userId>
                         <password>${crx.password}</password>
                     </configuration>
                 </plugin>

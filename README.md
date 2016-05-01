@@ -15,6 +15,7 @@ From the bundle directory, run ``mvn -PautoInstallBundle clean install`` to buil
 Using with VLT
 --------------
 
+
 To use vlt with this project, first build and install the package to your local CQ instance as described above. Then cd to `content/src/main/content/jcr_root` and run
 
     vlt --credentials admin:admin checkout -f ../META-INF/vault/filter.xml --force http://localhost:4502/crx
